@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Exercise 2</title>
+</head>
+<body>
+    <h1>Register Employee Here</h1>
+    <form action="" method="post">
+        <fieldset id="employeeDetails">
+            <legend>Employee Personal Details</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required autofocus>
+            <br>
+            <label for="number">Phone Number:</label>
+            <input type="tel" name="number" id="number">
+            <br>
+            <label for="ID">ID Number:</label>
+            <input type="number" name="ID" id="ID">
+            <br>
+            <label for="KRA">KRA PIN:</label>
+            <input type="text" name="KRA" id="KRA">
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="gender">Gender;</label>
+            <input type="radio" name="male" id="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female" value="Female">
+            <label for="female">Female</label>
+            <br>
+            <label for="department">Department:</label>
+            <select name="department" id="department" size="1">
+                <option value="Management">Management</option>
+                <option value="Finance">Finance</option>
+                <option value="ICT" selected>ICT</option>
+                <option value="HR">Human Resource</option>
+                <option value="Cust-Service">Customer Service</option>
+            </select>
+        </fieldset>
+        <fieldset id="remuneration">
+            <legend>Employee Remuneration Package</legend>
+            <label for="BS">Basic Salary:</label>
+            <input type="text" name="BS" id="BS">
+            <br>
+            <label for="HA">House Allowance:</label>
+            <input type="text" name="HA" id="HA">
+            <br>
+            <label for="CA">Commuter Allowance:</label>
+            <input type="text" name="CA" id="CA">
+        </fieldset>
+        <input type="submit" value="Register Employee">
+    </form>
+</body>
+</html>
