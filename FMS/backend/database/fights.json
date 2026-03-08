@@ -1,0 +1,23 @@
+[
+    {
+    "id":"F101",
+    "airline":"SkyWay Airlines",
+    "from":"New York",
+    "to":"London",
+    "price":450
+    },
+    {
+    "id":"F102",
+    "airline":"Global Air",
+    "from":"New York",
+    "to":"London",
+    "price":520
+    },
+    {
+    "id":"F103",
+    "airline":"JetSpeed",
+    "from":"Chicago",
+    "to":"Paris",
+    "price":390
+    }
+]
